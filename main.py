@@ -63,7 +63,7 @@ plt.ylabel("Feature")
 plt.title("Top 10 Important Features")
 
 plt.gca().invert_yaxis()
-plt.savefig("data/feature_importance.png")
+plt.savefig("images/feature_importance.png")
 plt.show()
 
 y_pred = model.predict(X_test)
